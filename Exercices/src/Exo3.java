@@ -1,17 +1,26 @@
 public class Exo3 {
+    public static void main(String[] args) {
 
-    //variables primitifs
-    byte petit_nombre = 127;
-    short moyen_nombre = 32767;
-    int nombre = 1;
-    long grd_nb = 200000;
-    float decimal = 2;
-    double grd_decimal = 3.22;
-    char lettre = 0x63;
-    boolean true_false = true;
+        // primitive data types
+        byte myByte = 127;
+        short myShort = 32767;
+        int myInt = 2147483647;
+        long myLong = 9223372036854775807L;
+        float myFloat = 3.4028235E38f;
+        double myDouble = 1.7976931348623157E308;
+        char myChar = 'A';
+        boolean myBoolean = true;
 
-    //variables référentiel
-    String mot = "chaine de caractère";
-    int[] tab_nombres = {10, 20, 30, 40};
+        // reference data types (c'est une référence aux variables primitives)
+        String myString = "Hello";
+        Integer myInteger = 42;
+        Double myWrappedDouble = 3.14;
+        Object myObject = new Object(); //déclarer une nouvelle instance d'objet
 
+        
+        System.out.println(myByte);
+        System.out.println(myShort);
+        System.out.println(myObject);
+
+    }
 }
